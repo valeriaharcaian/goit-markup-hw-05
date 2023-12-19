@@ -6,8 +6,8 @@
   </head>
   <body>
     <!-- Buton pentru deschiderea ferestrei modale -->
-    <button id="openModalBtn">Deschide fereastra modală</button>
+    <button id="openModalBtn">Modal</button>
     <!-- Include scriptul pentru fereastra modală -->
-    <script src="modal.js"></script>
+    <script src="modal-script.js"></script>
   </body>
 </html>
