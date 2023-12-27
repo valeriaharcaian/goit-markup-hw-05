@@ -20,6 +20,8 @@
     <title>Studio</title>
   </head>
   <body class="body">
+    <div class="modal is-hidden" data-modal></div>
+    <button data-modal-close>Close</button>
     <!-- Header Section -->
     <header class="header-box-shadow">
       <div class="header-container container">
@@ -62,7 +64,9 @@
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <!-- Button -->
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- Section 2 -->
