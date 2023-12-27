@@ -80,23 +80,17 @@ img {
 .close-button:hover {
   background-color: #404bbf;
   border: none;
+  fill: #fff;
 }
 
 .close-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #fff;
 }
 
 .modal-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-svg:hover {
-  fill: #fff;
-}
-
-.modal-svg:focus {
-  fill: #fff;
 }
 
 .container {
