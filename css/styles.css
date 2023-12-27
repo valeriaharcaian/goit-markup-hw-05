@@ -457,6 +457,8 @@ img {
   justify-content: center;
   color: var(--light-slate);
   align-items: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover {
