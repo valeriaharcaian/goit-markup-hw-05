@@ -114,14 +114,13 @@ img {
   color: var(--logo-titles-color);
   text-decoration: none;
   padding: 24px 0;
-
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-link::after {
-  content: ;
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
