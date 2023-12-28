@@ -70,11 +70,12 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
-  margin: 1px solid rgba(0, 0, 0.01);
+  margin: 1px solid rgba(0, 0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0;
 }
 
 .close-button:hover {
@@ -122,6 +123,7 @@ img {
   display: inline-block;
   margin-bottom: 16px;
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list {
@@ -642,6 +644,10 @@ img {
   padding-right: 24px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navi-menu:hover {
@@ -677,6 +683,29 @@ img {
   color: var(--adress-text-color);
 }
 
+.img-div-pharagraph {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-color);
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img-div-pharagraph:hover {
+  transform: translateY(0);
+}
+
+.img-div-pharagraph:focus {
+  transform: translateY(0);
+}
+
 .main {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -686,4 +715,9 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+}
+
+.img-div {
+  position: relative;
+  overflow: hidden;
 }
